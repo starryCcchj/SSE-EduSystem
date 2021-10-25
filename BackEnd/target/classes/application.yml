@@ -6,3 +6,14 @@ spring:
     username: root
     password: root123456*
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+  mail:
+    host: smtp.qq.com
+    username: 3617429882@qq.com
+    password: tqdnzwqpvxhochjj
+    default-encoding: UTF-8
+    protocol: smtp
+    properties.mail.smtp.ssl.enable: true
+
+  #以谁来发送邮件
+  #  mail.fromMail.addr=xxx1@qq.com
