@@ -17,3 +17,12 @@ spring:
 
   #以谁来发送邮件
   #  mail.fromMail.addr=xxx1@qq.com
+
+#config:
+#  jwt:
+#    # 加密密钥
+#    secret: abcdefg1234567
+#    # token有效时长
+#    expire: 3600
+#    # header 名称
+#    header: token
